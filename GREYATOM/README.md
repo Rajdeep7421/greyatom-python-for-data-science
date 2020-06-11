@@ -6,9 +6,13 @@
 ### Learnings from the project
 
 1.Mathematical operations
+
 2.List operation
+
 3.Dictionary operations
+
 4.String indexing and formatting
+
 5.Solving basic Python problems
 
 

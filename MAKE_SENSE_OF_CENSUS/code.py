@@ -41,7 +41,8 @@ len_2 = len(race_2)
 len_3 = len(race_3)
 len_4 = len(race_4)
 
-minority_race = list(np.where(np.array([len_0,len_1,len_2,len_3,len_4])==(np.array([len_0,len_1,len_2,len_3,len_4])).min()))[0]
+race_list = [len_0, len_1,len_2, len_3, len_4]
+minority_race=race_list.index(min(race_list))
 print(minority_race)
 
 #step4
